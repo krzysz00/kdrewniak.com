@@ -1,0 +1,74 @@
+---
+---
+/* For Jekyll */
+
+@import "normalize.css";
+
+$desktop-width: 40em;
+$dim: #999;
+
+body {
+    font-family: Georgia, serif;
+    margin: 0 auto; /* Centering */
+    max-width: $desktop-width + 10em;
+}
+
+#name-header a {
+    color: black;
+    text-decoration: none;
+    &:hover, &:focus, &:active {
+        text-decoration: underline;
+    }
+}
+
+img#main-photo {
+    float: right;
+    max-width: 150px;
+    border-radius: 10px;
+    border: 3px solid $dim;
+}
+
+#papers {
+    dt { font-weight: bold; }
+    dd+dt { padding-top: 1em; }
+    dd { margin: 0 1em; }
+}
+
+#contact {
+    dt:before {
+        content: "";
+        display: block;
+    }
+    dt, dd {
+        display: inline;
+    }
+
+    dt { font-weight: bold; }
+
+    dt:after { content: ":"; }
+
+    dd { margin: 0 0.2em; }
+}
+
+.news-item {
+    .date { font-weight: bold; }
+    .content>p { display: inline; margin: 0; } /* Ignore default <p> */
+    .content { display: inline; margin: 0; }
+    padding-bottom: 1em;
+}
+
+.comma-list {
+    display: inline;
+    padding: 0;
+
+    li {
+        display: inline;
+        list-style: none;
+        &:after { content: ", " }
+        &:last-child:after { content: "" }
+    }
+}
+
+.tight-list {
+    padding-left: 20px;
+}

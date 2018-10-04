@@ -1,0 +1,39 @@
+<dt>
+    {% include link.html
+        url=paper.link
+        text=paper.title
+        class="paper-title"
+    %}
+</dt>
+
+<dd class="paper-authors">
+    <ul class="comma-list">
+        {% for a_key in paper.authors %}
+            <li>
+                {%- author.name -%}
+            </li>
+        {% endfor %}
+    </ul>
+</dd>
+
+{% if paper.venue %}
+    <dd class="paper-venue">
+        {%- include link.html
+            url=paper.venue_url
+            text=paper.venue -%},
+        {{ paper.date | date: '%B %Y' }}
+    </dd>
+{% endif %}
+
+{% if paper.extra %}
+    <dd> {{ paper.extra | markdownify | remove: "<p>" | remove: "</p>"}} </dd>
+{% endif %}
+
+<dd>
+    {% for link in paper.links %}
+        [<a href="{{ link.url }}">{{ link.text }}</a>]
+    {% endfor %}
+    {% if paper.content != "" %}
+        [<a href="{{ paper.url }}">bibtex</a>]
+    {% endif %}
+</dd>
