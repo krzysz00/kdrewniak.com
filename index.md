@@ -28,7 +28,7 @@ PGP
 
 <section id="about">
 ## About me
-I'm a first-year PhD studnet at the University of Washington Paul G. Allen School of Computer Science & Engineering.
+I'm a first-year PhD student at the University of Washington Paul G. Allen School of Computer Science & Engineering.
 I work in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras].
 
 My overall research focus is on reducing the amount of runtime debugging needed during systems programming by having computers catch or eliminate by construction more classes of bugs.
