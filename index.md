@@ -21,11 +21,21 @@ CV
 
 ORCID
 :    [0000-0002-7054-1238](https://orcid.org/0000-0002-7054-1238)
+
+PGP
+:    [837E 880C 11FF 99D9 F0C0  9BA1 2A14 2308 2388 E924](/pubkey.asc)
 </section>
 
 <section id="about">
 ## About me
-I'm a PhD student and I'll be writing this in a bit.
+I'm a first-year PhD studnet at the University of Washington Paul G. Allen School of Computer Science & Engineering.
+I work in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras].
+
+My overall research focus is on reducing the amount of runtime debugging needed during systems programming by having computers catch or eliminate by construction more classes of bugs.
+Currently, I'm working on finding more effective enumerative algorithms for problems such as synthesizing near-perfect hash functions or GPU programs that perform complex memory permutations to maintain efficiency.
+
+[plse]:  http://uwplse.org
+[ras]: https://homes.cs.washington.edu/~bodik/
 </section>
 
 {::options parse_block_html="false" /}
@@ -34,14 +44,14 @@ I'm a PhD student and I'll be writing this in a bit.
 {% for post in site.posts %}
 <div class="news-item">
 <span class="date"> {{ post.date | date: "%Y-%m-%d" }} </span>
-<div class="content"> {{ post.content }}</div>
+<span class="content"> {{ post.content | remove: "<p>" | remove: "</p>" }}</span>
 </div>
 {% endfor %}
 </section>
 
 <section id="papers">
 <h2>Papers</h2>
-{% assign bibs-newest-first = site.bib | reverse %}
+{%- assign bibs-newest-first = site.bib | reverse -%}
 {% for paper in bibs-newest-first %}
   {% include paper.html paper=paper %}
 {% endfor %}

@@ -52,9 +52,9 @@ img#main-photo {
 
 .news-item {
     .date { font-weight: bold; }
-    .content>p { display: inline; margin: 0; } /* Ignore default <p> */
-    .content { display: inline; margin: 0; }
-    padding-bottom: 1em;
+//    .content>p { display: inline; margin: 0; } /* Ignore default <p> */
+//    .content { display: inline; margin: 0; }
+    padding-bottom: 0.5em;
 }
 
 .comma-list {

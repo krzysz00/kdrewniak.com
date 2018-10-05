@@ -1,0 +1,36 @@
+---
+title: A method for reducing the severity of epidemics by allocating vaccines according to centrality
+
+authors:
+  - Krzysztof Drewniak
+  - Joseph Helsing
+  - Joseph Helsing
+
+venue: ACM Conference on Bioinformatics, Computational Biology, and Health Informatics 2014
+
+venue_url: https://cse.buffalo.edu/ACM-BCB2014/
+
+link: https://dl.acm.org/citation.cfm?id=2649409
+
+links:
+  - text: pdf
+    url: /papers/centrality.pdf
+---
+{%- raw -%}@inproceedings{centrality,
+ author = {Drewniak, Krzysztof and Helsing, Joseph and Mikler, Armin R.},
+ title = {A Method for Reducing the Severity of Epidemics by Allocating Vaccines According to Centrality},
+ booktitle = {Proceedings of the 5th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics},
+ series = {ACM BCB},
+ year = {2014},
+ isbn = {978-1-4503-2894-4},
+ location = {Newport Beach, California},
+ pages = {341--350},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/2649387.2649409},
+ doi = {10.1145/2649387.2649409},
+ acmid = {2649409},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {centrality measures, computational epidemiology, health informatics, vaccine distribution},
+}
+{% endraw %}

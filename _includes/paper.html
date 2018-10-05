@@ -8,10 +8,8 @@
 
 <dd class="paper-authors">
     <ul class="comma-list">
-        {% for a_key in paper.authors %}
-            <li>
-                {%- author.name -%}
-            </li>
+        {% for author in paper.authors %}
+            <li>{{- author -}}</li>
         {% endfor %}
     </ul>
 </dd>
