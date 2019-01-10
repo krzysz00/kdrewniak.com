@@ -5,13 +5,13 @@ layout: default
 <h1 id="name-header"><a href="{{ site.url }}">{{ site.title }}</a></h1>
 
 <section id="contact">
-<img src="/assets/headshot.jpg" id="main-photo" />
+<img src="/assets/headshot.jpg" id="main-photo" alt="A photo of me" />
 ## Contact
 Email
 :    [krzysd@cs.washington.edu](mailto:krzysd@cs.washington.edu)
 
 Office
-:    Allen Center (CSE) 324
+:    Gates Center (CSE2) 279
 
 Github
 :    [krzysz00](https://github.com/krzysz00/)
@@ -31,7 +31,7 @@ PGP
 I'm a first-year PhD student at the University of Washington Paul G. Allen School of Computer Science & Engineering.
 I work in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras].
 
-My overall research focus is on reducing the amount of runtime debugging needed during systems programming by having computers catch or eliminate by construction more classes of bugs.
+My overall research focus is on using program synthesis to improve low-level performance, especially of numerical code and programs used in high-performance computing.
 Currently, I'm working on finding more effective enumerative algorithms for problems such as synthesizing near-perfect hash functions or GPU programs that perform complex memory permutations to maintain efficiency.
 
 [plse]:  http://uwplse.org
