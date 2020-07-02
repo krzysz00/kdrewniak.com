@@ -31,9 +31,11 @@ PGP
 I'm a second-year PhD student at the University of Washington Paul G. Allen School of Computer Science & Engineering.
 I work in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras].
 
-My overall research focus is on using program synthesis to improve low-level performance, especially of numerical code and programs used in high-performance computing.
-Currently, I'm developing abstract dynamic programming, a new synthesis technique that can be used to accelerate enumerative searches through a space of programs, and applying it to the problem of automatically filling in the details of numeric kernels on GPUs and other similar hardware.
-I'm also investigating using approximated dynamic programming for finding optimal patterns of loop tilings and memory movements to surround numerical kernels.
+My research focus is on using program synthesis to improve the performance of numerical computations, such as matrix multiplication and convolution, that are used in machine learning and scientific computing.
+
+Currently, I'm refining a new synthesis technique for fixed-sized mathematical operators on accelerators (such as GPUs) that reduces the problem to synthesis over functional array programs and uses an abstract reachability analysis to quickly prune most incorrect partial candidates.
+This has the added advantage of reducing a large amount of the computation to Boolean matrix multiplication, enabling synthesis over larger spaces of functions as compared to previous work.
+I am also beginning to integrate this work into a larger framework for synthesizing efficient code for machine learning models on accelerators.
 
 [plse]:  http://uwplse.org
 [ras]: https://homes.cs.washington.edu/~bodik/
