@@ -28,7 +28,7 @@ PGP
 
 <section id="about">
 ## About me
-I'm a second-year PhD student at the University of Washington Paul G. Allen School of Computer Science & Engineering.
+I'm a third-year PhD student at the University of Washington Paul G. Allen School of Computer Science & Engineering.
 I work in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras].
 
 My research focus is on using program synthesis to improve the performance of numerical computations, such as matrix multiplication and convolution, that are used in machine learning and scientific computing.
