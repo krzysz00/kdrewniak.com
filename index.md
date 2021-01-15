@@ -19,6 +19,9 @@ Github
 CV
 :    [pdf](/cv.pdf)
 
+Resume
+:   [pdf](/resume.pdf)
+
 ORCID
 :    [0000-0002-7054-1238](https://orcid.org/0000-0002-7054-1238)
 
@@ -28,14 +31,14 @@ PGP
 
 <section id="about">
 ## About me
-I'm a third-year PhD student at the University of Washington Paul G. Allen School of Computer Science & Engineering.
-I work in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras].
+I'm currently looking for work in software engineering, especially roles with in areas such as optimizing numerical computations, programming language, systems, hardware accelerators, infrastructure, and more.
 
-My research focus is on using program synthesis to improve the performance of numerical computations, such as matrix multiplication and convolution, that are used in machine learning and scientific computing.
+I'm currently (though I will be pausing the process in March) a third-year PhD student at the University of Washington Paul G. Allen School of Computer Science & Engineering.
+I work in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras]. My research focus is on using program synthesis to improve the performance of numerical computations, such as matrix multiplication and convolution, that are used in machine learning and scientific computing.
 
-Currently, I'm refining a new synthesis technique for fixed-sized mathematical operators on accelerators (such as GPUs) that reduces the problem to synthesis over functional array programs and uses an abstract reachability analysis to quickly prune most incorrect partial candidates.
+I have developed a new synthesis technique for fixed-sized mathematical operators on accelerators (such as GPUs) that reduces the problem to synthesis over functional array programs and uses an abstract reachability analysis to quickly prune most incorrect partial candidates.
 This has the added advantage of reducing a large amount of the computation to Boolean matrix multiplication, enabling synthesis over larger spaces of functions as compared to previous work.
-I am also beginning to integrate this work into a larger framework for synthesizing efficient code for machine learning models on accelerators.
+In the future, this work will be integrated into a larger framework for synthesizing efficient code for machine learning models on accelerators.
 
 [plse]:  http://uwplse.org
 [ras]: https://homes.cs.washington.edu/~bodik/
