@@ -16,14 +16,12 @@ Office
 Github
 :    [krzysz00](https://github.com/krzysz00/)
 
-CV
-:    [pdf](/cv.pdf)
 
 Resume
 :   [pdf](/resume.pdf)
 
-ORCID
-:    [0000-0002-7054-1238](https://orcid.org/0000-0002-7054-1238)
+CV
+:    [pdf](/cv.pdf)
 
 PGP
 :    [837E 880C 11FF 99D9 F0C0  9BA1 2A14 2308 2388 E924](/pubkey.asc)
@@ -40,7 +38,7 @@ I'm most actively searching for positions that focus on high-performance computi
 However, I'd be quite happy to take positions that focus on any aspect of systems programming, infrastructure, developer productivity, and, in general, backend, among other similar areas.
 
 I've been a PhD student  at the University of Washington Paul G. Allen School of Computer Science & Engineering for three years, and am leaving the program indefinitely to find a more applied role and gain more real-world experience.
-I work in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras]. My research focus is on using program synthesis to improve the performance of numerical computations, such as matrix multiplication and convolution, that are used in machine learning and scientific computing.
+I worked in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras]. My research focus is on using program synthesis to improve the performance of numerical computations, such as matrix multiplication and convolution, that are used in machine learning and scientific computing.
 
 I have developed a new synthesis technique for fixed-sized mathematical operators on accelerators (such as GPUs) that reduces the problem to synthesis over functional array programs and uses an abstract reachability analysis to quickly prune most incorrect partial candidates.
 This has the added advantage of reducing a large amount of the computation to Boolean matrix multiplication, enabling synthesis over larger spaces of functions as compared to previous work.
@@ -67,4 +65,6 @@ In the future, this work will be integrated into a larger framework for synthesi
 {% for paper in bibs-newest-first %}
   {% include paper.html paper=paper %}
 {% endfor %}
+
+(ORCID: [0000-0002-7054-1238](https://orcid.org/0000-0002-7054-1238))
 </section>
