@@ -66,5 +66,5 @@ In the future, this work will be integrated into a larger framework for synthesi
   {% include paper.html paper=paper %}
 {% endfor %}
 
-(ORCID: [0000-0002-7054-1238](https://orcid.org/0000-0002-7054-1238))
+Also listed at ORCID [0000-0002-7054-1238](https://orcid.org/0000-0002-7054-1238)
 </section>
