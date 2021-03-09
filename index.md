@@ -29,13 +29,7 @@ PGP
 
 <section id="about">
 ## About me
-I'm currently looking for a full-time software engineering position.
-My recent experience, detailed below, has been in using program synthesis to generate programs for high-performance accelerators, and I have experience with high-performance numerical code (and the underlying architectural requirements, though much of my earli experience focused on CPUs) and program synthesis.
-However, I've also had experience in other areas of the field, such as contributing to production distributed systems.
-
-I'm open to and capable of expanding my skillset.
-I'm most actively searching for positions that focus on high-performance computing, program synthesis/compilers, or developer tooling and infrastructure.
-However, I'd be quite happy to take positions that focus on any aspect of systems programming, infrastructure, developer productivity, and, in general, backend, among other similar areas.
+I will soon be joining the machine learning compiler teem at AMD.
 
 I've been a PhD student  at the University of Washington Paul G. Allen School of Computer Science & Engineering for three years, and am leaving the program indefinitely to find a more applied role and gain more real-world experience.
 I worked in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras]. My research focus is on using program synthesis to improve the performance of numerical computations, such as matrix multiplication and convolution, that are used in machine learning and scientific computing.
