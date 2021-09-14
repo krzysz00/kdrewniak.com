@@ -29,7 +29,7 @@ PGP
 <section id="about">
 ## About me
 I am an engineer on the machine learning compiler team at AMD.
-There, I contribute to the [MLIR-based high-performance ML infrastructure](https://github.com/ROCmSofwarePlatform/llvm-project-mlir) we are developing, and im integrating the research I did during my Master's/PhD at UW in a real-world setting.
+There, I contribute to the [MLIR-based high-performance ML infrastructure](https://github.com/ROCmSoftwarePlatform/llvm-project-mlir) we are developing, and im integrating the research I did during my Master's/PhD at UW in a real-world setting.
 
 I'm not looking for work right now and **do not want to hear from recruiters**.
 
