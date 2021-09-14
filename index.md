@@ -8,14 +8,13 @@ layout: default
 <img src="/assets/headshot.jpg" id="main-photo" alt="A photo of me" />
 ## Contact
 Email
-:    [krzysd@cs.washington.edu](mailto:krzysd@cs.washington.edu)
+:    [krzysdrewniak@gmail.com](mailto:krzysdrewniak@gmail.com)
 
-Office
-:    Gates Center (CSE2) 279
+Work Email
+:    [Krzysztof.Drewniak@amd.com](mailto:Krzysztof.Drewniak@amd.com)
 
 Github
 :    [krzysz00](https://github.com/krzysz00/)
-
 
 Resume
 :   [pdf](/resume.pdf)
@@ -29,7 +28,10 @@ PGP
 
 <section id="about">
 ## About me
-I will soon be joining the machine learning compiler teem at AMD.
+I am an engineer on the machine learning compiler team at AMD.
+There, I contribute to the [MLIR-based high-performance ML infrastructure](https://github.com/ROCmSofwarePlatform/llvm-project-mlir) we are developing, and im integrating the research I did during my Master's/PhD at UW in a real-world setting.
+
+I'm not looking for work right now and **do not want to hear from recruiters**.
 
 I've been a PhD student  at the University of Washington Paul G. Allen School of Computer Science & Engineering for three years, and am leaving the program indefinitely to find a more applied role and gain more real-world experience.
 I worked in the [Programming Languages and Software Engineering][plse] group, and am advised by [Rastislav Bodik][ras]. My research focus is on using program synthesis to improve the performance of numerical computations, such as matrix multiplication and convolution, that are used in machine learning and scientific computing.
