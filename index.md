@@ -18,18 +18,23 @@ Github
 
 Resume
 :   [pdf](/resume.pdf)
-
+<!--
 CV
 :    [pdf](/cv.pdf)
-
+-->
 PGP
 :    [837E 880C 11FF 99D9 F0C0  9BA1 2A14 2308 2388 E924](/pubkey.asc)
+
+Ham radio
+:    KF5SOQ
 </section>
 
 <section id="about">
 ## About me
-I am an engineer on the machine learning compiler team at AMD.
-There, I contribute to the [MLIR-based high-performance ML infrastructure](https://github.com/ROCmSoftwarePlatform/llvm-project-mlir) we are developing, and im integrating the research I did during my Master's/PhD at UW in a real-world setting.
+I am a senior engineer on the machine learning compiler team at AMD.
+There, I contribute to [rocMLIR, a MLIR-based generator for high performance machine lerning kernels.](https://github.com/ROCmSoftwarePlatform/llvm-project-mlir).
+I have taken the lead on improvements throughout the project, including refactroing, new hardware bringup, and contributing back to the upstream MLIR projects.
+I've also branched out up and down the stack, handling both improvements to buffer resource support in the AMDGPU LLVM backend and, most recently (July 2023) the team's integration with MIGraphX.
 
 I'm not looking for work right now and **do not want to hear from recruiters**.
 
