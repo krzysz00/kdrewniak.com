@@ -5,6 +5,7 @@ layout: default
 <h1 id="name-header"><a href="{{ site.url }}">{{ site.title }}</a></h1>
 
 <section id="contact">
+<!--CV is at ./cv.pdf but is out of date  -->
 <img src="/assets/headshot.jpg" id="main-photo" alt="A photo of me" />
 ## Contact
 Email
@@ -18,10 +19,7 @@ Github
 
 Resume
 :   [pdf](/resume.pdf)
-<!---
-CV
-:    [pdf](/cv.pdf)
--->
+
 PGP
 :    [837E 880C 11FF 99D9 F0C0  9BA1 2A14 2308 2388 E924](/pubkey.asc)
 
