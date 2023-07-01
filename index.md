@@ -18,7 +18,7 @@ Github
 
 Resume
 :   [pdf](/resume.pdf)
-<!--
+<!---
 CV
 :    [pdf](/cv.pdf)
 -->
