@@ -28,13 +28,13 @@ img#main-photo {
     border: 3px solid $dim;
 }
 
-#papers {
+#publications {
     dt { font-weight: bold; }
     dd+dt { padding-top: 1em; }
     dd { margin: 0 1em; }
 }
 
-#contact {
+#contact-section, #writing-section {
     dt:before {
         content: "";
         display: block;
@@ -54,7 +54,7 @@ img#main-photo {
     .date { font-weight: bold; }
 //    .content>p { display: inline; margin: 0; } /* Ignore default <p> */
 //    .content { display: inline; margin: 0; }
-    padding-bottom: 0.5em;
+//    padding-bottom: 0.5em;
 }
 
 .comma-list {
