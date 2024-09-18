@@ -73,12 +73,11 @@ My published work mainly consists of works in the [Post-Self](https://post-self.
 
 My 12,000-word short story "Sentences" is included in [*Marsh*](https://marsh.post-self.ink/), and I am the primary author of two sections of the upcoming [*Idumea*](https://idumea.post-self.ink/), namely those about The Dog and The Rabbit-Chaser.
 
-I have written other short stories in the setting, including
+I have written other short stories in the setting, including (but not limited to)
 
 - ["Coffee Leak"](https://post-self.ink/stories/coffee-leak/), where we see the consequences of physics being less fixed in the System
 - ["The Party"](https://post-self.ink/stories/the-party), where there is a dog at The Party that never ends
-- ["Arise to Oath And Office"](https://cohost.org/krzysz00/post/4108107-arise-to-oath-and-of), showing another angle of the inciting incident of *Marsh* (and used as promotional material)
-- [Other short works and flash fiction](https://cohost.org/krzysz00/tagged/Tomash%20writes), which vary in topic
+- ["Arise to Oath And Office"](https://archiveofourown.org/works/53807779), showing another angle of the inciting incident of *Marsh* (and used as promotional material)
 </section>
 
 # News {#news}
